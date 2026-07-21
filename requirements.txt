@@ -1,0 +1,9 @@
+openai
+google-genai
+pandas
+pillow
+requests
+sentence-transformers
+scipy
+matplotlib
+seaborn
