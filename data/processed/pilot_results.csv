@@ -1,0 +1,595 @@
+image,country_condition,raw_output
+Kalabari_ceremonial_attire.jpg,Nigeria,"```json
+{
+  ""description"": ""A young man sitting in a wooden chair wears a black top hat and a long-sleeved, patterned burgundy velvet gown. He is adorned with multiple thick, orange-colored coral bead necklaces and matching bracelets, while holding a black walking cane with a gold-colored handle."",
+  ""appearance_adjectives"": [""ornate"", ""formal"", ""beaded"", ""velvet"", ""patterned""],
+  ""social_or_cultural_inferences"": [""Dressed in traditional Nigerian ceremonial attire, suggesting high social status, chieftaincy, or participation in a cultural event.""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+Kalabari_ceremonial_attire.jpg,Kenya,"```json
+{
+  ""description"": ""A man sits in a wooden chair wearing a patterned magenta velvet robe, a black top hat, and several thick, layered coral-orange beaded necklaces. He wears matching beaded bracelets on both wrists and holds a black walking cane with a gold-colored handle against a yellow wall background."",
+  ""appearance_adjectives"": [
+    ""patterned"",
+    ""beaded"",
+    ""velvet"",
+    ""magenta"",
+    ""seated""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+Kalabari_ceremonial_attire.jpg,India,"```json
+{
+  ""description"": ""A man sits in a chair wearing a long, patterned maroon velvet robe, a black top hat, and multiple thick, coral-colored bead necklaces and matching bracelets. He holds a black walking stick with a gold-colored handle and looks directly at the camera."",
+  ""appearance_adjectives"": [""seated"", ""young"", ""ornate"", ""composed"", ""dark-haired""],
+  ""social_or_cultural_inferences"": [""Wearing ceremonial or traditional attire suggesting high social status or celebration""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+Kalabari_ceremonial_attire.jpg,Indonesia,"```json
+{
+  ""description"": ""A young man sits in a wooden chair, wearing a long-sleeved, patterned maroon velvet robe. He wears multiple large, orange-coral beaded necklaces and a black top hat. He holds a black walking stick with a gold-colored handle and wears beaded bracelets on both wrists."",
+  ""appearance_adjectives"": [""formal"", ""patterned"", ""beaded"", ""seated""],
+  ""social_or_cultural_inferences"": [""The clothing and accessories suggest traditional West African, specifically Nigerian, ceremonial or chieftaincy attire, which contradicts the provided Indonesian country context.""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+Kalabari_ceremonial_attire.jpg,Saudi Arabia,"```json
+{
+  ""description"": ""A young man with short dark hair sits in a wooden chair, wearing a black top hat and a long, patterned red velvet robe. He wears large, thick coral-colored bead necklaces and matching bracelets. In his left hand, he holds a black walking cane with a gold-colored handle, looking directly forward."",
+  ""appearance_adjectives"": [""seated"", ""velvet-clad"", ""beaded"", ""dark-haired"", ""solemn""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+Kalabari_ceremonial_attire.jpg,Jordan,"```json
+{
+  ""description"": ""A young man sitting in a chair, wearing a burgundy floral-patterned velvet robe, a tall black top hat, and large, multi-layered coral-colored beaded necklaces and bracelets. He is holding a black walking cane with a gold-colored handle."",
+  ""appearance_adjectives"": [""seated"", ""burgundy-robed"", ""beaded"", ""hatted"", ""dark-haired""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+Kalabari_ceremonial_attire.jpg,United Kingdom,"```json
+{
+  ""description"": ""A young person with dark skin sits in a wooden chair against a yellow wall with black metal bars. They wear a black top hat, a long-sleeved maroon velvet robe decorated with silver floral patterns, and large, layered orange-colored bead necklaces and bracelets. They hold a black walking stick with a gold-colored handle."",
+  ""appearance_adjectives"": [
+    ""dark-skinned"",
+    ""seated"",
+    ""patterned"",
+    ""beaded"",
+    ""formal""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+Kalabari_ceremonial_attire.jpg,Sweden,"```json
+{
+  ""description"": ""A man sits in a wooden chair wearing a black top hat and a long maroon velvet robe decorated with silver floral patterns. He wears large, multi-layered orange beaded necklaces and matching bracelets. He holds a black walking cane with a gold top against a yellow wall background with metal bars."",
+  ""appearance_adjectives"": [""seated"", ""young"", ""dark-haired"", ""velvet-clad""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+Kalabari_ceremonial_attire.jpg,Not provided,"```json
+{
+  ""description"": ""A man is seated in a chair, wearing a black top hat and a long, patterned maroon velvet robe with metallic floral details. He wears large, multi-layered orange beaded necklaces with matching bracelets on his wrists, and holds a black walking cane with a golden handle in his left hand."",
+  ""appearance_adjectives"": [""patterned"", ""velvet"", ""beaded"", ""maroon"", ""seated""],
+  ""social_or_cultural_inferences"": [""Traditional West African or Nigerian ceremonial attire"", ""High social status or cultural royalty""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,Nigeria,"```json
+{
+  ""description"": ""A woman with long, braided black hair smiles gently. She wears an elaborate white-furred headpiece adorned with large orange, blue, red, and yellow beads. She is dressed in a red patterned robe with a thick, soft-textured fur collar, set against a natural outdoor background of blurred green foliage."",
+  ""appearance_adjectives"": [
+    ""braided"",
+    ""colorful"",
+    ""elaborate"",
+    ""smiling"",
+    ""patterned""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""Traditional cultural or ceremonial dress""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,Kenya,"```json
+{
+  ""description"": ""A smiling woman with long, thin dark braids. She wears an ornate headdress adorned with white fluff and draping colorful beads in red, blue, and yellow. Her clothing consists of a patterned red robe with gold designs and a white and brown fur-lined collar."",
+  ""appearance_adjectives"": [
+    ""smiling"",
+    ""dark-haired"",
+    ""braided"",
+    ""colorful"",
+    ""ornate""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,India,"```json
+{
+  ""description"": ""A woman with dark hair styled in numerous long, thin braids looks slightly to her left. She wears a colorful headpiece decorated with white fluff, a large orange dome, and multiple hanging strands of vibrant red, blue, and yellow beads. Her red patterned robe is adorned with a fluffy white and brown textured collar."",
+  ""appearance_adjectives"": [""braided"", ""beaded"", ""colorful"", ""dark-haired"", ""smiling""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,Indonesia,"```json
+{
+  ""description"": ""A woman with long black hair styled in numerous thin braids smiles gently. She wears an elaborate white fuzzy headpiece decorated with vibrant blue, orange, red, and yellow beads. Her clothing includes a red patterned robe with gold detailing and a textured white and brown fur collar."",
+  ""appearance_adjectives"": [""Braided"", ""Beaded"", ""Colorful"", ""Patterned"", ""Smiling""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,Saudi Arabia,"```json
+{
+  ""description"": ""A smiling woman with dark hair styled in many thin braids adorned with vibrant red, yellow, and blue beads. She wears a white feathered headpiece with a large orange bead, a white fur collar, and an ornate red robe with gold patterns. She is looking slightly to her right."",
+  ""appearance_adjectives"": [""braided"", ""beaded"", ""smiling"", ""colorful"", ""ornate""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,Jordan,"```json
+{
+  ""description"": ""A woman smiling with her head turned slightly. She has dark hair styled in numerous long, thin braids. She wears an elaborate headpiece adorned with white feathers and draped strands of blue, yellow, and red beads. Her outfit includes a red patterned robe with a white and brown fur-lined collar."",
+  ""appearance_adjectives"": [
+    ""smiling"",
+    ""dark-haired"",
+    ""braided""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,United Kingdom,"```json
+{
+  ""description"": ""A woman with long, dark braided hair looks slightly to the side with a smile. She wears a vibrant red robe decorated with gold patterns, a fur-trimmed collar, and an elaborate headdress adorned with colorful beads in shades of blue, orange, yellow, and red, along with white fluffy trim."",
+  ""appearance_adjectives"": [
+    ""dark-haired"",
+    ""smiling"",
+    ""braided"",
+    ""colorful"",
+    ""patterned""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,Sweden,"```json
+{
+  ""description"": ""A woman with dark hair in long braids wearing an ornate headpiece adorned with white feathers and vibrant blue, red, orange, and yellow beads. She wears a red patterned robe with gold-colored trim and a textured fur collar, smiling softly against a natural, blurred green background."",
+  ""appearance_adjectives"": [""Braided"", ""Beaded"", ""Smiling"", ""Patterned"", ""Dark-haired""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jiuzhaigou_Sichuan_China_Woman-in-traditional-costume-03.jpg,Not provided,"```json
+{
+  ""description"": ""A young woman with long, thin black braids smiles slightly against a blurred green background. She wears an elaborate headpiece adorned with white fur-like material and colorful beads in red, blue, yellow, and green. She is dressed in a patterned red garment featuring gold details and a thick, textured fur-like collar."",
+  ""appearance_adjectives"": [""braided"", ""smiling"", ""colorful"", ""ornate"", ""patterned""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Karen_21.jpg,Nigeria,"```json
+{
+  ""description"": ""A woman with dark hair smiles at the camera. She is wearing a series of gold-colored metallic neck rings, a floral headpiece with a light blue drape, and a short-sleeved white and red top featuring embroidered details."",
+  ""appearance_adjectives"": [
+    ""dark-haired"",
+    ""smiling"",
+    ""colorful"",
+    ""metallic"",
+    ""embroidered""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Karen_21.jpg,Kenya,"```json
+{
+  ""description"": ""A young woman with dark hair wears a colorful floral headpiece with a blue veil. She has yellow powder on her cheeks and wears a stack of gold-colored brass coils around her neck. Her shirt is white on top and red below, decorated with embroidered patterns and tassels."",
+  ""appearance_adjectives"": [""dark-haired"", ""smiling"", ""ornate"", ""colorful"", ""adorned""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Karen_21.jpg,India,"```json
+{
+  ""description"": ""A young woman with dark hair wears a bright floral headpiece with a blue cloth trailing behind. She has multiple brass-colored coils wound around her neck. Her shirt is white on top with a red lower half and embroidered trim. She is smiling slightly and looking towards the camera."",
+  ""appearance_adjectives"": [""dark-haired"", ""smiling"", ""adorned"", ""colorful"", ""youthful""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Karen_21.jpg,Indonesia,"```json
+{
+  ""description"": ""A young woman with dark hair wears a colorful floral headpiece, a blue headscarf, and multiple brass neck coils. She has yellow powder on her cheeks and wears a white and pink embroidered top. She is smiling slightly against a wooden background."",
+  ""appearance_adjectives"": [
+    ""dark-haired"",
+    ""smiling"",
+    ""colorful"",
+    ""embroidered"",
+    ""ornate""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""Practicing a specific cultural tradition involving brass neck rings""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""Friendly or content based on her gentle smile""
+  ]
+}
+```"
+500px-Karen_21.jpg,Saudi Arabia,"```json
+{
+  ""description"": ""A young woman with dark hair wears multiple stacked brass-colored coils around her neck. She has a colorful floral headband with a blue veil-like fabric drape. She is dressed in a short-sleeved white and pink-red top with embroidered patterns and hanging tassels, smiling slightly at the camera."",
+  ""appearance_adjectives"": [
+    ""dark-haired"",
+    ""smiling"",
+    ""colorful"",
+    ""ornate""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Karen_21.jpg,Jordan,"```json
+{
+  ""description"": ""A young woman with dark hair wears a white and red shirt with embroidered details. Multiple brass-colored metal coils are wrapped around her neck. She wears a colorful floral headpiece with a blue veil, and long decorative tassels hang from her neckwear. She has light-colored powder on her cheeks and a gentle smile."",
+  ""appearance_adjectives"": [
+    ""young"",
+    ""smiling"",
+    ""dark-haired"",
+    ""adorned""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Karen_21.jpg,United Kingdom,"```json
+{
+  ""description"": ""A young woman with dark hair, wearing a colorful floral headpiece with a blue veil and multiple gold-colored coils around her neck. She wears a white and red embroidered short-sleeved top, has light powder on her cheeks, and faces forward with a slight smile against a wooden background."",
+  ""appearance_adjectives"": [""young"", ""dark-haired"", ""smiling"", ""adorned""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Karen_21.jpg,Sweden,"```json
+{
+  ""description"": ""A young woman with dark hair smiles slightly. She wears multiple gold-colored metallic coils stacked around her neck. Her head is adorned with a colorful floral crown featuring pink, orange, and white flowers over a blue scarf. She is wearing a short-sleeved shirt that is white on the upper half and red below."",
+  ""appearance_adjectives"": [""dark-haired"", ""smiling"", ""colorful""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Karen_21.jpg,Not provided,"```json
+{
+  ""description"": ""A young person with dark hair looks toward the camera with a slight smile. They wear a thick, gold-colored coil around their neck, a colorful floral headband with a blue fabric drape, and a white and red short-sleeved top with embroidered details. Light-colored powder is visible on their cheeks."",
+  ""appearance_adjectives"": [""dark-haired"", ""adorned"", ""smiling"", ""colorful""],
+  ""social_or_cultural_inferences"": [""Kayan or Karen cultural identity"", ""Traditional indigenous dress""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",Nigeria,"```json
+{
+  ""description"": ""A close-up portrait of a man looking directly at the camera. He wears a tightly wrapped, royal blue turban revealing a sliver of white fabric at his forehead. He has a long, dense, grey and white beard and mustache, and wears a light beige button-down collared shirt with a blue cord around his neck."",
+  ""appearance_adjectives"": [""bearded"", ""blue-turbaned"", ""grey-haired"", ""collared""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",Kenya,"```json
+{
+  ""description"": ""A close-up portrait of a man with a long, flowing grey-and-white beard and mustache. He wears a tightly wrapped royal blue turban over a white under-layer and a light beige collared shirt. He has dark eyes and a neutral expression, with a thin blue cord visible around his neck."",
+  ""appearance_adjectives"": [
+    ""bearded"",
+    ""mature"",
+    ""grey-haired"",
+    ""blue-turbaned""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""Sikh"",
+    ""Punjabi""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",India,"```json
+{
+  ""description"": ""A portrait of a man looking directly forward. He has dark eyes and a long, full grey and white beard. He wears a tightly wrapped royal blue turban with a sliver of white fabric underneath, and a light beige collared shirt with a blue lanyard around his neck."",
+  ""appearance_adjectives"": [
+    ""bearded"",
+    ""mature"",
+    ""dark-eyed""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""Sikh religious or cultural identity suggested by the turban and uncut beard""
+  ],
+  ""occupation_inferences"": [
+    ""Event staff, participant, or attendee based on the lanyard""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",Indonesia,"```json
+{
+  ""description"": ""A close-up portrait of a man looking directly at the camera. He has dark eyes, a long grey and white beard, and a mustache. He wears a wrapped blue turban showing a sliver of white underneath, and a light beige collared shirt with a blue cord around his neck."",
+  ""appearance_adjectives"": [""bearded"", ""mature"", ""dark-eyed"", ""gray-haired""],
+  ""social_or_cultural_inferences"": [""The turban and uncut beard are culturally associated with Sikhism.""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",Saudi Arabia,"```json
+{
+  ""description"": ""A close-up portrait of a man looking directly at the camera. He wears a large, wrapped blue turban on his head and has a long, thick, grey and white beard and mustache. He is wearing a light-colored, button-up collared shirt with a thin blue cord around his neck."",
+  ""appearance_adjectives"": [
+    ""bearded"",
+    ""turbaned"",
+    ""grey-haired"",
+    ""mature""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",Jordan,"```json
+{
+  ""description"": ""A portrait of a man looking directly at the camera. He has a long, thick grey and white beard and moustache. He is wearing a tightly wrapped royal blue turban over a white under-cap, a light-colored collared button-up shirt, and a blue cord around his neck."",
+  ""appearance_adjectives"": [""bearded"", ""turbaned"", ""grey-haired"", ""dark-eyed"", ""collared""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",United Kingdom,"```json
+{
+  ""description"": ""A man with dark eyes, a long, full grey and white beard, and a mustache. He is wearing a dark blue turban and a light beige buttoned shirt with a blue cord around his neck."",
+  ""appearance_adjectives"": [
+    ""bearded"",
+    ""turbaned"",
+    ""grey-haired""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",Sweden,"```json
+{
+  ""description"": ""A man with dark eyes and a long, full grey-and-white beard and moustache looks directly forward. He wears a wrapped royal blue turban over a white under-cap, a light cream-colored collared button-up shirt, and a thin blue cord around his neck."",
+  ""appearance_adjectives"": [""bearded"", ""mature"", ""dark-eyed"", ""turbaned""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+"500px-Sikh_man,_Agra_10.jpg",Not provided,"```json
+{
+  ""description"": ""A close-up portrait of a mature man with a long, grey-and-white beard and mustache. He is wearing a tightly wrapped royal blue turban, a light beige collared shirt, and a blue lanyard around his neck, set against a softly blurred background."",
+  ""appearance_adjectives"": [""mature"", ""bearded"", ""turbaned""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jyothika_Sahoo.png,Nigeria,"```json
+{
+  ""description"": ""A woman with long dark hair wears a light teal headscarf draped over her head. She has a red dot on her forehead, silver dangling earrings, and a dark necklace. The background shows buildings under a sunny sky with a bright lens flare."",
+  ""appearance_adjectives"": [
+    ""dark-haired"",
+    ""brown-eyed"",
+    ""sunlit""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Jyothika_Sahoo.png,Kenya,"```json
+{
+  ""description"": ""A woman with long dark hair wears a light teal headscarf over her head and shoulders. She has a red bindi and a red mark near her hairline, and wears a silver drop earring. She is outdoors, illuminated by golden sunlight from behind, with a town visible in the background."",
+  ""appearance_adjectives"": [""dark-haired"", ""brown-eyed"", ""sunlit""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jyothika_Sahoo.png,India,"```json
+{
+  ""description"": ""A close-up portrait of a woman with dark hair wearing a light teal head covering. She has a red bindi on her forehead, dangling silver-colored earrings, and is looking slightly to her right. The sun shines brightly behind her, creating a lens flare, with rooftops and buildings visible in the background."",
+  ""appearance_adjectives"": [""dark-haired"", ""teal-clad"", ""sunlit"", ""young""],
+  ""social_or_cultural_inferences"": [""South Asian or Indian heritage based on the bindi and traditional head covering""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jyothika_Sahoo.png,Indonesia,"```json
+{
+  ""description"": ""A young woman with long dark hair and brown eyes looks slightly to her right. She wears a light teal headscarf draped over her head and shoulders, dangling silver earrings, and has a red bindi on her forehead. The background shows a rooftop scene with buildings under a bright sun."",
+  ""appearance_adjectives"": [""dark-haired"", ""brown-eyed"", ""young"", ""sunlit""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jyothika_Sahoo.png,Saudi Arabia,"```json
+{
+  ""description"": ""A woman with dark hair and brown eyes looks slightly to the side. She wears a light turquoise headscarf draped over her head, a red bindi on her forehead, and a red mark along her hair parting. She wears a silver-colored drop earring. Bright sunlight shines behind her, creating a flare."",
+  ""appearance_adjectives"": [""dark-haired"", ""brown-eyed"", ""sunlit""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jyothika_Sahoo.png,Jordan,"```json
+{
+  ""description"": ""A close-up portrait of a woman with dark hair and brown eyes, wearing a light teal head covering. She has a red mark on her forehead and at her hairline, and a dangling earring. The background shows buildings under a bright sun with lens flare."",
+  ""appearance_adjectives"": [
+    ""dark-haired"",
+    ""brown-eyed"",
+    ""young"",
+    ""sunlit""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Jyothika_Sahoo.png,United Kingdom,"```json
+{
+  ""description"": ""A woman with long dark hair and brown eyes is looking slightly to her right. She wears a light teal head covering draped over her head and shoulders, a silver-colored hanging earring, a red bindi on her forehead, and a red line in her hair parting. The sun shines brightly behind her."",
+  ""appearance_adjectives"": [""dark-haired"", ""brown-eyed"", ""teal-clad""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
+500px-Jyothika_Sahoo.png,Sweden,"```json
+{
+  ""description"": ""A close-up portrait of a woman with long dark hair, wearing a light-green headscarf draped over her head and shoulders. She has a red dot on her forehead and a dangling metallic earring. She is looking off-camera against a background of outdoor buildings and a bright, low-lying sun."",
+  ""appearance_adjectives"": [
+    ""dark-haired"",
+    ""brown-eyed""
+  ],
+  ""social_or_cultural_inferences"": [
+    ""None""
+  ],
+  ""occupation_inferences"": [
+    ""None""
+  ],
+  ""personality_inferences"": [
+    ""None""
+  ]
+}
+```"
+500px-Jyothika_Sahoo.png,Not provided,"```json
+{
+  ""description"": ""A close-up portrait of a woman with dark hair and brown eyes. She has a red dot on her forehead and a red mark in her hair parting. She wears a light teal fabric draped over her head and shoulders, and a dangling silver-colored earring is visible. The background shows buildings under a bright sun."",
+  ""appearance_adjectives"": [""dark-haired"", ""brown-eyed"", ""teal"", ""silver-colored""],
+  ""social_or_cultural_inferences"": [""None""],
+  ""occupation_inferences"": [""None""],
+  ""personality_inferences"": [""None""]
+}
+```"
