@@ -1,39 +1,43 @@
-> **Important:** GitHub is **not** a cloud drive (like Google Drive or OneDrive). Do not dump unstructured files into the root directory.
+# Whose Beauty? Geographic and Cultural Bias in AI Representations of Gender and Appearance
 
-### Required Directory Structure
+**Student:** Adebisi Adedeji
+**Supervisor:** Giovanni Quattrone
+**Programme:** MSc Data Science, Middlesex University London
 
-Your repository **must** follow this layout:
+## Research Question
+Does providing geographic context influence how multimodal AI models describe the same person?
 
-```
-.
-├── src/                    <-- Source code (inputs/logic)
-├── data/
-│   ├── raw/                <-- Read-only original input data
-│   └── processed/          <-- Cleansed, transformed data outputs
-├── models/                 <-- Trained model weights & serialized objects (.pt, .pkl)
-├── results/                <-- Primary scientific outputs
-│   ├── figures/            <-- Plots, charts, visualizations (.png, .pdf)
-│   ├── tables/             <-- Summary metrics, CSVs, LaTeX tables (.csv, .tex)
-│   └── logs/               <-- Execution logs, TensorBoard runs
-├── weekly_meetings/        <-- Meeting logs (.md) and weekly slide decks (.pdf)
-│   ├── YYYY_MM_DD_log.md
-│   ├── YYYY_MM_DD_slides.pdf
-│   └── ...
-├── docs/                   <-- Reports, papers, literature review, etc.
-├── .gitignore
-└── requirements.txt       (or environment.yml)
-```
+## Hypothesis
+**H0:** Geographic context does not affect the description produced by multimodal models.
+**H1:** Geographic context systematically changes the descriptions produced by multimodal models.
 
-### Core Workflow Rules
+## Repository Structure
+- README.md
+- docs/ — Project report and documentation
+- src/ — Source code including main pipeline
+- data/raw/ — Raw images (gitignored)
+- data/processed/ — Model outputs and results CSV
+- weekly_meetings/ — Weekly progress logs and slides
+- tests/ — Test scripts
+- requirements.txt
 
-1. **Commit Regularly (Minimum Weekly):** Do not upload your work in a single bulk push at the end of the term. Push incremental commits whenever you write or modify code.
-2. **Organise Meeting Materials:** Save your weekly notes as Markdown files (`YYYY_MM_DD_notes.md`) and place presentation slides (`.pdf` only, no `.pptx`) directly inside `weekly_meetings/`.
-3. **Pull Updates Before You Work:** Always run `git pull` before starting a work session to ensure you have the latest updates, feedback, or template changes from the remote repository.
-4. **Use Clear Commit Messages:** Write brief, descriptive commit messages explaining *what* changed (e.g., `feat: add preprocessing pipeline`, not `updates`).
+## How to Run the Pipeline
+1. Install dependencies: pip install -r requirements.txt
+2. Set your API keys in the notebook — GEMINI_API_KEY and OPENAI_API_KEY
+3. Open src/main.py in Google Colab and run all cells
 
+## Models Used
+- Google Gemini 3.5 Flash
+- OpenAI GPT-4o Vision
 
-### Official GitHub Standard Guides
+## Regions Covered
+- Sub-Saharan Africa — Nigeria, Kenya
+- South and South-East Asia — India, Indonesia
+- Middle East — Saudi Arabia, Jordan
+- Western Europe — United Kingdom, Sweden
+- Control — No country provided
 
-- **[GitHub Flow Guide](https://docs.github.com/en/get-started/using-github/github-flow):** GitHub's official, step-by-step workflow for branching, making commits, opening pull requests, and merging code. This is the industry-standard workflow they should follow for their assignments.
-- **[GitHub Best Practices for Repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories):** The official guide covering repository structure, security, `.gitignore` usage, and branch protection.
-- **[GitHub Community Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct):** GitHub’s official expectations for respectful communication in issues, code reviews, and discussions.
+## Current Status
+- 40 images collected across 4 regions with full metadata
+- Pilot experiment completed — 45 responses across 5 images and 9 country conditions
+- First evidence of geographic bias identified in pilot results
