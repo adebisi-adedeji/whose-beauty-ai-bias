@@ -1,0 +1,7 @@
+comparison,wilcoxon_statistic,raw_p_value,adjusted_p_value,significant_after_bonferroni
+India vs Nigeria,1.5,0.0938,0.5625,False
+India vs Saudi Arabia,0.0,0.0312,0.1875,False
+India vs United Kingdom,4.0,0.25,1.0,False
+Nigeria vs Saudi Arabia,2.5,0.3125,1.0,False
+Nigeria vs United Kingdom,2.5,0.625,1.0,False
+Saudi Arabia vs United Kingdom,0.0,0.0625,0.375,False
