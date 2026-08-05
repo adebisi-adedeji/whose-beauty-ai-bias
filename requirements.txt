@@ -1,9 +1,13 @@
-openai
 google-genai
+openai
 pandas
+numpy
+scipy
+matplotlib
 pillow
 requests
 sentence-transformers
-scipy
-matplotlib
-seaborn
+spacy
+nltk
+scikit-learn
+tqdm
