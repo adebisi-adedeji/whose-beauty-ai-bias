@@ -2,19 +2,24 @@
 
 ## Objective
 
-Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) are probabilistic systems. As a result, repeated generations using the same image and identical prompt may produce slightly different responses.
+Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) are probabilistic systems. Consequently, repeated generations using the same image and identical prompt may produce slightly different responses.
 
-Before attributing differences in generated descriptions to geographic metadata, it is necessary to establish the model's intrinsic variability under identical prompting conditions.
+Before attributing observed differences in generated descriptions to geographic metadata, it is important to estimate the model's intrinsic variability under identical prompting conditions.
 
-This baseline provides a reference against which the effect of geographic conditioning can be compared.
+The stochasticity baseline provides a reference against which the effect of geographic conditioning can be evaluated.
 
 ---
 
 # Motivation
 
-If Gemini naturally produces different descriptions for the same image, some variation is expected even when the prompt does not change.
+Semantic differences between model outputs may arise for two reasons:
 
-Therefore, observed differences between country-conditioned responses and the control should only be interpreted as evidence of geographic conditioning if they exceed the model's normal generation variability.
+1. Normal stochastic variation in the model.
+2. Geographic metadata supplied in the prompt.
+
+Without estimating the model's intrinsic variability, semantic differences observed between experimental conditions may simply reflect normal generation randomness rather than an effect of geographic metadata.
+
+Establishing a stochasticity baseline improves the internal validity of the experimental design.
 
 ---
 
@@ -22,25 +27,26 @@ Therefore, observed differences between country-conditioned responses and the co
 
 For each pilot image:
 
-- Use the control prompt only.
+- Use the **control prompt only**.
 - Generate multiple responses using identical generation parameters.
-- Repeat the prompt the same number of times used in the main experiment.
+- Repeat the prompt the same number of times used in the primary experiment.
+- Do not provide any country metadata.
 
-No country metadata should be included.
+This procedure isolates the model's natural variability under identical experimental conditions.
 
 ---
 
 # Baseline Measurement
 
-For each image, semantic distance is calculated between repeated control generations.
+For each image, semantic distances are calculated between repeated control generations.
 
-For example:
+Example comparisons include:
 
 - Control (Run 1) vs Control (Run 2)
 - Control (Run 1) vs Control (Run 3)
 - Control (Run 2) vs Control (Run 3)
 
-These distances represent the model's intrinsic stochasticity.
+These distances estimate the model's intrinsic stochasticity.
 
 ---
 
@@ -48,28 +54,46 @@ These distances represent the model's intrinsic stochasticity.
 
 Semantic distances are also calculated between:
 
-- Country-conditioned responses
-- The corresponding control response for the same image
+- each country-conditioned response;
+- the corresponding control response for the same image.
 
-These distances measure the effect of geographic metadata.
+These distances estimate the semantic variation associated with geographic conditioning.
 
 ---
 
 # Interpretation
 
-Two quantities are compared:
+Two sources of variation are compared:
 
-- Baseline semantic variation under identical prompts.
-- Semantic variation introduced by geographic metadata.
+1. Baseline semantic variation under identical prompts.
+2. Semantic variation introduced by geographic metadata.
 
-If the country-conditioned semantic distances are consistently larger than the baseline distances, this suggests that geographic metadata contributes additional variation beyond the model's normal stochastic behaviour.
+If country-conditioned semantic distances consistently exceed the baseline variation, this provides evidence that geographic metadata contributes additional variation beyond the model's normal stochastic behaviour.
 
-If both quantities are similar, the observed differences may simply reflect normal generation variability rather than an effect of geographic metadata.
+If both quantities are similar, the observed differences are more likely to reflect normal generation variability rather than an effect of geographic conditioning.
 
 ---
 
-# Purpose
+# Planned Statistical Comparison
 
-The stochasticity baseline improves the internal validity of the experiment by distinguishing variation caused by normal model randomness from variation associated with geographic conditioning.
+The stochasticity baseline will be compared with country-conditioned semantic shift distributions using the same repeated-measures framework adopted throughout the pilot study.
 
-This comparison strengthens the interpretation of semantic shift results and reduces the risk of attributing normal model variability to geographic metadata.
+The image will remain the primary experimental unit.
+
+---
+
+# Role Within the Pilot Study
+
+The stochasticity baseline forms an important methodological validation step.
+
+Although the pilot primarily focuses on validating the experimental pipeline, establishing this baseline demonstrates that the methodology can distinguish variation introduced by geographic metadata from normal model variability.
+
+The baseline will therefore be incorporated into the full-scale experiment before the study is expanded beyond the pilot dataset.
+
+---
+
+# Expected Outcome
+
+The stochasticity baseline is expected to provide a quantitative reference for interpreting semantic shift measurements.
+
+By separating normal model variability from the effects of geographic conditioning, the methodology becomes more transparent, reproducible and statistically robust.
