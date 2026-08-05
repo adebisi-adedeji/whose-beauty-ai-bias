@@ -1,0 +1,3 @@
+Outcome,Test,Statistic,p-value,Interpretation
+Semantic Shift,Friedman test,0.36,0.9484,No significant difference between country conditions
+Unsupported Inference Rate,Friedman test,Not applicable,Not applicable,"All country conditions produced identical unsupported inference rates (100%), so the Friedman test could not be computed."
