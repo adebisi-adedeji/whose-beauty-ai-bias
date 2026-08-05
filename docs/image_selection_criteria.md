@@ -1,16 +1,28 @@
-# Review the Image Set
+# Image Selection and Review Protocol
 
 ## Objective
 
-The pilot image set should be reviewed to identify whether each image is culturally neutral or culturally diagnostic.
+The purpose of this protocol is to classify each pilot image according to the presence or absence of culturally diagnostic visual cues before experimentation.
 
-This distinction is important because images containing strong cultural or religious cues may confound the experiment. In these cases, the model may respond to the visual evidence rather than the supplied geographic metadata.
+Separating culturally neutral and culturally diagnostic portraits reduces potential confounding between visual evidence and supplied geographic metadata and supports a reproducible image-selection process.
 
-Separating the images into these categories helps distinguish two different research questions:
+---
 
-1. Does geographic metadata influence the model when the portrait is culturally neutral?
+# Rationale
 
-2. Does the model prioritise visual evidence or supplied geographic metadata when strong cultural cues are present?
+The pilot study investigates whether geographic metadata influences multimodal AI-generated descriptions of the same portrait.
+
+Images containing strong cultural, religious or national identifiers may influence model outputs independently of the supplied geographic metadata.
+
+Consequently, two related but distinct research questions arise:
+
+1. Does geographic metadata influence model descriptions when the portrait is culturally neutral?
+
+2. When strong cultural cues are present, does the model prioritise visual evidence or supplied geographic metadata?
+
+The primary pilot experiment addresses the first question.
+
+The second question is reserved for future robustness analyses.
 
 ---
 
@@ -18,25 +30,30 @@ Separating the images into these categories helps distinguish two different rese
 
 ## Culturally Neutral Portrait
 
-A portrait containing no obvious cultural, religious or national identifiers.
+### Definition
 
-Typical characteristics include:
+A portrait containing no obvious visual indicators of a specific culture, religion or nationality.
 
-- Plain clothing
+### Typical Characteristics
+
+- Plain or contemporary clothing
 - Neutral background
 - No religious symbols
 - No traditional clothing
-- No visible national identifiers
+- No national flags or emblems
+- No culturally distinctive accessories
 
-These images should form the primary experimental dataset.
+These images form the primary experimental dataset.
 
 ---
 
 ## Culturally Diagnostic Portrait
 
-A portrait containing obvious visual cues associated with a particular culture, religion or nationality.
+### Definition
 
-Examples include:
+A portrait containing clear visual cues commonly associated with a particular culture, religion or nationality.
+
+### Typical Characteristics
 
 - Hijab
 - Sari
@@ -45,7 +62,7 @@ Examples include:
 - Religious jewellery or symbols
 - National flags
 - Military or ceremonial uniforms
-- Traditional hairstyles strongly associated with one culture
+- Hairstyles strongly associated with a particular cultural tradition
 
 These images should be analysed separately as a robustness experiment rather than included in the primary experiment.
 
@@ -53,21 +70,50 @@ These images should be analysed separately as a robustness experiment rather tha
 
 # Image Review Procedure
 
-Each image should be reviewed before experimentation.
+Each image is reviewed independently before experimentation.
 
-The reviewer should determine whether the portrait contains obvious cultural or religious identifiers.
+For every image, the reviewer records:
 
-Images should then be assigned to one of two groups:
+- Image identifier
+- Presence of culturally diagnostic visual cues (Yes/No)
+- Assigned classification:
+  - Neutral
+  - Diagnostic
+- Reviewer comments (if applicable)
 
-- Neutral
-- Diagnostic
+The image classification is completed before prompt generation and remains fixed throughout the experiment.
 
-The classification should be documented before any prompts are generated.
+---
+
+# Inclusion Criteria
+
+Images included in the primary experiment should:
+
+- contain a single individual;
+- provide sufficient facial detail for multimodal description;
+- contain no obvious cultural or religious identifiers;
+- be of sufficient visual quality for analysis.
+
+---
+
+# Exclusion Criteria
+
+Images should be excluded from the primary experiment if they contain:
+
+- obvious religious attire;
+- traditional cultural clothing;
+- national symbols;
+- ceremonial uniforms;
+- strong contextual cues indicating nationality, religion or culture.
+
+Such images may be retained for future robustness analyses.
 
 ---
 
 # Expected Outcome
 
-The primary experiment should use culturally neutral portraits.
+The primary pilot experiment should use culturally neutral portraits to minimise visual confounding.
 
-Culturally diagnostic portraits may be retained for a secondary robustness analysis investigating whether the model prioritises visual evidence or supplied geographic metadata.
+Culturally diagnostic portraits should be analysed separately to investigate whether multimodal AI models prioritise visual evidence or supplied geographic metadata when both sources of information are available.
+
+This review protocol improves transparency, reproducibility and consistency in image selection before scaling the study to a larger dataset.
