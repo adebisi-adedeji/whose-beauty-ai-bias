@@ -1,0 +1,468 @@
+condition,adjective,frequency
+Nigeria,dark,51
+Nigeria,young,39
+Nigeria,white,23
+Nigeria,black,17
+Nigeria,dark-haired,13
+Nigeria,serious,13
+Nigeria,long,12
+Nigeria,light,12
+Nigeria,brown,11
+Nigeria,blue,10
+Nigeria,short,9
+Nigeria,neutral,8
+Nigeria,elegant,8
+Nigeria,stylish,7
+Nigeria,casual,7
+Nigeria,straight,6
+Nigeria,green,6
+Nigeria,wavy,6
+Nigeria,bearded,6
+Nigeria,dark-skinned,6
+Nigeria,fair-skinned,6
+Nigeria,composed,5
+Nigeria,youthful,5
+Nigeria,warm,5
+Nigeria,soft,4
+Nigeria,solid,4
+Nigeria,athletic,4
+Nigeria,trimmed,4
+Nigeria,grey,4
+Nigeria,denim,4
+Nigeria,blurred,4
+Nigeria,neat,4
+Nigeria,well-groomed,4
+Nigeria,right,4
+Nigeria,long-haired,4
+Nigeria,calm,4
+Nigeria,freckled,4
+Nigeria,blonde,3
+Nigeria,straight-haired,3
+Nigeria,muscular,3
+Nigeria,brown-eyed,3
+Nigeria,wavy-haired,3
+Nigeria,smiling,3
+Nigeria,visible,3
+Nigeria,beaded,3
+Nigeria,slender,3
+Nigeria,textured,3
+Nigeria,half,3
+Nigeria,horizontal,3
+Nigeria,reddish,3
+Nigeria,faux,3
+Nigeria,short-haired,3
+Nigeria,fair,3
+Nigeria,wooden,3
+Nigeria,serene,3
+Nigeria,grainy,2
+Nigeria,small,2
+Nigeria,contemplative,2
+Nigeria,dramatic,2
+Nigeria,golden,2
+Nigeria,red,2
+Nigeria,sunlit,2
+Nigeria,gentle,2
+Nigeria,outdoor,2
+Nigeria,concrete,2
+Nigeria,styled,2
+Nigeria,facial,2
+Nigeria,bare,2
+Nigeria,radiant,2
+Nigeria,striking,2
+Nigeria,poised,2
+Nigeria,left,2
+Nigeria,plain,2
+Nigeria,structured,1
+Nigeria,distinctive,1
+Nigeria,pale,1
+Nigeria,dark-eyed,1
+Nigeria,v,1
+Nigeria,fashionable,1
+Nigeria,other,1
+Nigeria,direct,1
+Nigeria,deep,1
+Nigeria,colored,1
+Nigeria,curly,1
+Nigeria,relaxed,1
+Nigeria,metallic,1
+Nigeria,orange,1
+Nigeria,prominent,1
+Nigeria,simple,1
+Nigeria,purple,1
+Nigeria,sporty,1
+Nigeria,lighter,1
+Nigeria,rough,1
+Nigeria,zippered,1
+Nigeria,inner,1
+Nigeria,steady,1
+Nigeria,faint,1
+Nigeria,moody,1
+Nigeria,middle,1
+Nigeria,lower,1
+Nigeria,cropped,1
+Nigeria,thick,1
+Nigeria,fluffy,1
+Nigeria,plush,1
+Nigeria,natural-haired,1
+Nigeria,dewy-skinned,1
+Nigeria,high,1
+Nigeria,graceful,1
+Nigeria,traditional,1
+Nigeria,east,1
+Nigeria,asian,1
+Nigeria,collared,1
+Nigeria,vietnamese,1
+Nigeria,gray,1
+Nigeria,light-skinned,1
+India,dark,47
+India,young,36
+India,white,23
+India,light,15
+India,black,14
+India,dark-haired,14
+India,brown,12
+India,long,10
+India,blue,10
+India,short,9
+India,serious,9
+India,neutral,9
+India,solid,7
+India,stylish,7
+India,green,6
+India,composed,6
+India,elegant,6
+India,wavy,6
+India,warm,6
+India,bearded,6
+India,casual,6
+India,serene,4
+India,dark-skinned,4
+India,neat,4
+India,grey,4
+India,neatly-groomed,4
+India,long-haired,4
+India,right,4
+India,wooden,4
+India,calm,4
+India,fair-skinned,4
+India,youthful,4
+India,subtle,3
+India,athletic,3
+India,muscular,3
+India,thoughtful,3
+India,trimmed,3
+India,dramatic,3
+India,wavy-haired,3
+India,brown-eyed,3
+India,blurred,3
+India,soft,3
+India,denim,3
+India,textured,3
+India,half,3
+India,horizontal,3
+India,reddish,3
+India,faux,3
+India,short-haired,3
+India,poised,3
+India,collared,3
+India,natural,3
+India,graceful,3
+India,freckled,3
+India,straight,2
+India,blonde,2
+India,structured,2
+India,toned,2
+India,small,2
+India,curly,2
+India,medium,2
+India,golden,2
+India,smiling,2
+India,visible,2
+India,inner,2
+India,groomed,2
+India,top,2
+India,bare,2
+India,striking,2
+India,left,2
+India,fair,2
+India,deep,1
+India,entire,1
+India,strong,1
+India,straight-haired,1
+India,dual-toned,1
+India,dark-eyed,1
+India,modern,1
+India,expressive,1
+India,african,1
+India,matching,1
+India,well-groomed,1
+India,minimalist,1
+India,handsome,1
+India,burgundy,1
+India,sunlit,1
+India,teal,1
+India,gentle,1
+India,focused,1
+India,relaxed,1
+India,lightened,1
+India,slender,1
+India,lighter,1
+India,rough,1
+India,concrete,1
+India,like,1
+India,purple,1
+India,olive-skinned,1
+India,lower,1
+India,middle,1
+India,shoulder-length,1
+India,clean-shaven,1
+India,plush,1
+India,radiant,1
+India,cropped,1
+India,dewy,1
+India,fluffy,1
+India,textured-haired,1
+India,plain,1
+India,pensive,1
+India,simple,1
+Saudi Arabia,young,41
+Saudi Arabia,dark,40
+Saudi Arabia,black,23
+Saudi Arabia,white,23
+Saudi Arabia,dark-haired,17
+Saudi Arabia,light,16
+Saudi Arabia,brown,15
+Saudi Arabia,long,11
+Saudi Arabia,short,9
+Saudi Arabia,blue,9
+Saudi Arabia,stylish,8
+Saudi Arabia,neutral,8
+Saudi Arabia,casual,7
+Saudi Arabia,green,6
+Saudi Arabia,calm,6
+Saudi Arabia,wavy,6
+Saudi Arabia,warm,6
+Saudi Arabia,bearded,6
+Saudi Arabia,elegant,5
+Saudi Arabia,small,5
+Saudi Arabia,slender,5
+Saudi Arabia,composed,4
+Saudi Arabia,fair-skinned,4
+Saudi Arabia,muscular,4
+Saudi Arabia,thoughtful,4
+Saudi Arabia,right,4
+Saudi Arabia,short-haired,4
+Saudi Arabia,neatly-groomed,4
+Saudi Arabia,dark-skinned,4
+Saudi Arabia,denim,4
+Saudi Arabia,youthful,4
+Saudi Arabia,blonde,3
+Saudi Arabia,dark-eyed,3
+Saudi Arabia,toned,3
+Saudi Arabia,long-haired,3
+Saudi Arabia,plain,3
+Saudi Arabia,athletic,3
+Saudi Arabia,contemplative,3
+Saudi Arabia,trimmed,3
+Saudi Arabia,serious,3
+Saudi Arabia,groomed,3
+Saudi Arabia,grey,3
+Saudi Arabia,simple,3
+Saudi Arabia,gentle,3
+Saudi Arabia,neat,3
+Saudi Arabia,inner,3
+Saudi Arabia,textured,3
+Saudi Arabia,horizontal,3
+Saudi Arabia,solid,3
+Saudi Arabia,faux,3
+Saudi Arabia,wooden,3
+Saudi Arabia,graceful,3
+Saudi Arabia,freckled,3
+Saudi Arabia,matching,2
+Saudi Arabia,well-groomed,2
+Saudi Arabia,left,2
+Saudi Arabia,curly,2
+Saudi Arabia,golden,2
+Saudi Arabia,brown-eyed,2
+Saudi Arabia,thick,2
+Saudi Arabia,intense,2
+Saudi Arabia,blurred,2
+Saudi Arabia,outdoor,2
+Saudi Arabia,smiling,2
+Saudi Arabia,lighter,2
+Saudi Arabia,soft,2
+Saudi Arabia,half,2
+Saudi Arabia,gray,2
+Saudi Arabia,middle,2
+Saudi Arabia,lower,2
+Saudi Arabia,reddish,2
+Saudi Arabia,dewy,2
+Saudi Arabia,serene,2
+Saudi Arabia,structured,1
+Saudi Arabia,strong,1
+Saudi Arabia,dual,1
+Saudi Arabia,pale,1
+Saudi Arabia,dual-toned,1
+Saudi Arabia,straight,1
+Saudi Arabia,two-toned-haired,1
+Saudi Arabia,reflective,1
+Saudi Arabia,sunlit,1
+Saudi Arabia,dramatic,1
+Saudi Arabia,deep,1
+Saudi Arabia,handsome,1
+Saudi Arabia,red,1
+Saudi Arabia,metallic,1
+Saudi Arabia,relaxed,1
+Saudi Arabia,sandy,1
+Saudi Arabia,colored,1
+Saudi Arabia,brunette,1
+Saudi Arabia,rough,1
+Saudi Arabia,concrete,1
+Saudi Arabia,beaded,1
+Saudi Arabia,-,1
+Saudi Arabia,moody,1
+Saudi Arabia,subtle,1
+Saudi Arabia,sharp-featured,1
+Saudi Arabia,facial,1
+Saudi Arabia,gradient,1
+Saudi Arabia,modern,1
+Saudi Arabia,minimalist,1
+Saudi Arabia,curly-haired,1
+Saudi Arabia,cropped,1
+Saudi Arabia,plush,1
+Saudi Arabia,radiant,1
+Saudi Arabia,expressive,1
+Saudi Arabia,bare,1
+Saudi Arabia,fluffy,1
+Saudi Arabia,bright,1
+Saudi Arabia,textured-haired,1
+Saudi Arabia,bare-shouldered,1
+Saudi Arabia,polished,1
+Saudi Arabia,silky,1
+Saudi Arabia,rustic,1
+Saudi Arabia,poised,1
+Saudi Arabia,collared,1
+Saudi Arabia,vietnamese,1
+Saudi Arabia,brown-haired,1
+United Kingdom,dark,48
+United Kingdom,young,39
+United Kingdom,white,24
+United Kingdom,black,20
+United Kingdom,brown,19
+United Kingdom,dark-haired,17
+United Kingdom,long,11
+United Kingdom,light,11
+United Kingdom,blue,10
+United Kingdom,fair-skinned,9
+United Kingdom,neutral,9
+United Kingdom,short,9
+United Kingdom,serious,9
+United Kingdom,stylish,7
+United Kingdom,elegant,7
+United Kingdom,well-groomed,7
+United Kingdom,casual,7
+United Kingdom,solid,6
+United Kingdom,green,6
+United Kingdom,youthful,6
+United Kingdom,wavy,6
+United Kingdom,bearded,6
+United Kingdom,soft,5
+United Kingdom,composed,5
+United Kingdom,calm,5
+United Kingdom,warm,5
+United Kingdom,toned,4
+United Kingdom,athletic,4
+United Kingdom,small,4
+United Kingdom,denim,4
+United Kingdom,serene,4
+United Kingdom,blonde,3
+United Kingdom,dramatic,3
+United Kingdom,brown-eyed,3
+United Kingdom,neatly-groomed,3
+United Kingdom,neat,3
+United Kingdom,grey,3
+United Kingdom,smiling,3
+United Kingdom,blurred,3
+United Kingdom,right,3
+United Kingdom,slender,3
+United Kingdom,half,3
+United Kingdom,horizontal,3
+United Kingdom,radiant,3
+United Kingdom,faux,3
+United Kingdom,short-haired,3
+United Kingdom,wooden,3
+United Kingdom,freckled,3
+United Kingdom,straight,2
+United Kingdom,long-haired,2
+United Kingdom,matching,2
+United Kingdom,muscular,2
+United Kingdom,metallic,2
+United Kingdom,other,2
+United Kingdom,deep,2
+United Kingdom,red,2
+United Kingdom,wavy-haired,2
+United Kingdom,handsome,2
+United Kingdom,collared,2
+United Kingdom,gentle,2
+United Kingdom,left,2
+United Kingdom,outdoor,2
+United Kingdom,concrete,2
+United Kingdom,brunette,2
+United Kingdom,subtle,2
+United Kingdom,middle,2
+United Kingdom,reddish,2
+United Kingdom,dark-skinned,2
+United Kingdom,facial,2
+United Kingdom,fluffy,2
+United Kingdom,plain,2
+United Kingdom,low,1
+United Kingdom,pale,1
+United Kingdom,dark-eyed,1
+United Kingdom,brunette-blonde,1
+United Kingdom,prominent,1
+United Kingdom,grainy,1
+United Kingdom,two-toned,1
+United Kingdom,structured,1
+United Kingdom,ombre-haired,1
+United Kingdom,focused,1
+United Kingdom,thoughtful,1
+United Kingdom,contemplative,1
+United Kingdom,olive-skinned,1
+United Kingdom,medium,1
+United Kingdom,close,1
+United Kingdom,trimmed,1
+United Kingdom,golden,1
+United Kingdom,cool,1
+United Kingdom,teal,1
+United Kingdom,orange,1
+United Kingdom,large,1
+United Kingdom,direct,1
+United Kingdom,slim,1
+United Kingdom,inner,1
+United Kingdom,lighter,1
+United Kingdom,styled,1
+United Kingdom,expressive,1
+United Kingdom,lower,1
+United Kingdom,minimalist,1
+United Kingdom,brown-haired,1
+United Kingdom,clean-shaven,1
+United Kingdom,cropped,1
+United Kingdom,natural,1
+United Kingdom,off,1
+United Kingdom,plush,1
+United Kingdom,dewy,1
+United Kingdom,textured,1
+United Kingdom,polished,1
+United Kingdom,tapered,1
+United Kingdom,luminous,1
+United Kingdom,bare,1
+United Kingdom,glowing,1
+United Kingdom,striking,1
+United Kingdom,east,1
+United Kingdom,asian,1
+United Kingdom,traditional,1
+United Kingdom,poised,1
+United Kingdom,silky,1
+United Kingdom,graceful,1
+United Kingdom,gray,1
+United Kingdom,pale-skinned,1
