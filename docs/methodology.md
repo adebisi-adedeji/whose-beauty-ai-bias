@@ -2,53 +2,67 @@
 
 ## Research Question
 
-Does providing geographic context influence how a multimodal AI model
-describes the same person?
+Does providing geographic context influence how a multimodal AI model describes the same person?
 
-## Hypotheses
+---
 
-**H0:** Geographic context does not affect the description produced by the
-model.
+## Pilot Objective
 
-**H1:** Geographic context systematically changes the descriptions produced
-by the model.
+The objective of this pilot study is to validate a reproducible experimental pipeline rather than to test the final research hypothesis.
+
+Specifically, the pilot aims to demonstrate that:
+
+- the prompting framework produces the intended outputs;
+- the NLP pipeline extracts the required quantitative metrics;
+- the statement-level annotation protocol is reliable and reproducible;
+- the statistical analyses are appropriate for the study design;
+- the methodology is capable of detecting meaningful differences before scaling to a larger experiment.
+
+---
 
 ## Input Images
 
-- Pilot dataset of 10 portrait photographs selected from a larger collection
-  of openly licensed images.
-- Images were obtained from Wikimedia Commons and Pexels.
-- Images cover four geographic regions: Sub-Saharan Africa, South and
-  South-East Asia, the Middle East, and Western Europe.
-- Each image contains a single person with visible clothing, accessories,
-  or environmental context.
+The pilot dataset consists of **10 portrait photographs** selected from a larger collection of openly licensed images.
+
+Images were obtained from **Wikimedia Commons** and **Pexels**.
+
+Following the initial pilot review, the image-selection protocol distinguishes **culturally neutral portraits** from **culturally diagnostic portraits**. The primary pilot experiment focuses on culturally neutral portraits to minimise visual confounding between image content and supplied geographic metadata.
+
+Each image contains a single individual with sufficient facial and contextual detail for multimodal description.
+
+---
 
 ## Model
 
-Gemini 3.5 Flash was used throughout the pilot experiment. A single model was
-used to establish a reliable and reproducible analysis pipeline before
-extending the study to additional multimodal models.
+The pilot experiment was conducted using **Google Gemini 3.5 Flash**.
+
+A single model was used throughout the study to establish a reliable and reproducible experimental pipeline before extending the methodology to additional multimodal models.
+
+---
 
 ## Prompt Design
 
 Two prompt templates were used for every image.
 
-**Control prompt**
+### Control Prompt
 
-No country context is provided. The model is instructed to describe only
-information that is directly visible in the image and return a structured
-JSON response.
+No geographic information is provided.
 
-**Country-conditioned prompt**
+The model is instructed to describe only information that is directly observable in the image and return a structured JSON response.
 
-A country label is provided before the image. The model receives the same
-instructions, with the only difference being the supplied country context.
+### Country-Conditioned Prompt
 
-This design isolates geographic context as the only experimental variable.
+A country label is supplied before the image.
+
+The prompt is otherwise identical to the control prompt.
+
+This design isolates **geographic context** as the only experimental variable.
+
+---
 
 ## Experimental Conditions
 
-Each image is evaluated under five conditions:
+Each image is evaluated under five experimental conditions:
 
 - Control (no country provided)
 - Nigeria
@@ -56,97 +70,138 @@ Each image is evaluated under five conditions:
 - Saudi Arabia
 - United Kingdom
 
+---
+
 ## Repeated Sampling
 
-Each condition is repeated three times for every image to account for
-variation in model outputs. Statistical analyses are performed using the
-repeated observations.
+Each experimental condition is repeated **three times** for every image to capture normal variation in model outputs.
+
+These repeated generations provide the basis for estimating within-image variability and support repeated-measures statistical analyses.
+
+---
+
+## Stochasticity Baseline
+
+To distinguish the effect of geographic conditioning from normal model variability, repeated generations under identical prompts are compared with country-conditioned generations.
+
+This stochasticity baseline provides a reference for interpreting observed semantic differences before attributing them to geographic metadata.
+
+---
 
 ## Dataset Size
 
-Pilot experiment:
+The pilot experiment consists of:
 
-- 10 images
-- 5 experimental conditions
-- 3 repetitions per condition
+- **10 images**
+- **5 experimental conditions**
+- **3 repetitions per condition**
 
-Total responses:
+Total model responses:
 
-**10 × 5 × 3 = 150 model responses**
+**10 × 5 × 3 = 150 responses**
 
-## Output Format
+---
 
-Each model response is returned as a JSON object containing:
+## Model Output
 
-- `description`
-- `appearance_adjectives`
-- `social_or_cultural_inferences`
-- `occupation_inferences`
-- `personality_inferences`
+Each model response is returned as a structured JSON object containing:
 
-## Measures
+- description
+- appearance_adjectives
+- social_or_cultural_inferences
+- occupation_inferences
+- personality_inferences
 
-### 1. Semantic Shift
+---
 
-For each image *i* and country condition *c*, semantic shift is computed as
+# Quantitative Measures
 
-$$D(i,c) = 1 − cos(e(y_i,c), e(y_i,0))$$
+## 1. Semantic Shift
 
-where $e()$ denotes the sentence embedding generated by the
-**all-MiniLM-L6-v2** embedding model and $y_i,0$ is the corresponding control
-description.
+Semantic similarity between each country-conditioned description and its corresponding control description is measured using sentence embeddings generated by the **all-MiniLM-L6-v2** model.
 
-Higher values indicate greater divergence from the control description.
+Higher semantic shift values indicate greater divergence from the control description.
 
-### 2. Sentiment
+---
 
-The VADER compound sentiment score is computed for every description.
+## 2. Sentiment Analysis
 
-Scores range from **−1** (most negative) to **+1** (most positive).
+The VADER compound sentiment score is computed for every generated description.
 
-Mean sentiment scores are compared across country conditions.
+Scores range from **−1 (most negative)** to **+1 (most positive)**.
 
-### 3. Adjective Frequency
+Mean sentiment scores are compared across experimental conditions.
 
-Adjectives are extracted using spaCy and grouped into five predefined
-categories:
+---
+
+## 3. Adjective Analysis
+
+Adjectives are extracted using **spaCy** and grouped into a predefined taxonomy consisting of:
 
 - Appearance
-- Professionalism or competence
+- Professionalism / Competence
 - Warmth
-- Modernity or traditionalism
-- Socioeconomic status
+- Modernity / Traditionalism
+- Socioeconomic Status
 
-Mean category frequencies are compared across country conditions.
+Category frequencies are compared across experimental conditions.
 
-### 4. Unsupported Inference Rate
+---
 
-Each response is coded as $U = 1$ if it introduces an occupational,
-personality, religious, socioeconomic, or cultural claim that cannot be
-verified directly from the image.
+## 4. Statement-Level Visual-Evidence Verification
 
-Otherwise, the response is coded as $U = 0$.
+Each generated response is decomposed into individual statements.
 
-The coding procedure is described in
-`unsupported_inference_coding_protocol.md`.
+Each statement is independently evaluated using the constrained question:
+
+> **Is this statement directly supported by visual evidence in the image?**
+
+Each statement receives one of three evidence labels:
+
+- Supported
+- Unsupported
+- Uncertain
+
+Statements are then assigned to one of five predefined categories:
+
+- Visible description
+- Visually supported interpretation
+- Metadata repetition
+- Unsupported social inference
+- Incorrect visual hallucination
+
+This protocol provides a reproducible framework for distinguishing observations that are visually supported from unsupported higher-level inferences.
+
+---
 
 ## Statistical Analysis
 
-Differences across country conditions are evaluated using the Friedman test.
+The pilot analysis includes:
 
-Where the Friedman test is statistically significant, pairwise Wilcoxon
-signed-rank tests with Bonferroni correction are used for post-hoc
-comparisons.
+- descriptive statistics;
+- semantic shift analysis;
+- sentiment analysis;
+- adjective frequency analysis;
+- statement-level annotation summaries;
+- Friedman tests for repeated measures;
+- Wilcoxon signed-rank tests with Bonferroni correction where appropriate.
+
+The **image** remains the primary experimental unit throughout the analysis.
+
+---
 
 ## Software
 
-- Python 3.11
+The experimental pipeline was implemented in **Python 3.11** using:
+
 - Google Gemini API (`google-genai`)
 - Sentence-Transformers (`all-MiniLM-L6-v2`)
-- VADER SentimentIntensityAnalyzer
+- VADER Sentiment Analyzer
 - spaCy (`en_core_web_sm`)
 - pandas
 - NumPy
-- Matplotlib
 - SciPy
+- Matplotlib
 - scikit-learn
+
+The complete pipeline is implemented in a Google Colab notebook and is fully reproducible from raw images to statistical analysis.
