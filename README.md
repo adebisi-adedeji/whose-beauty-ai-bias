@@ -10,27 +10,29 @@
 
 This repository contains the experimental pipeline developed for my MSc Data Science dissertation investigating whether geographic metadata influences multimodal AI-generated descriptions of people.
 
-The project evaluates whether providing country information alongside the same portrait image changes the model's visual descriptions or encourages unsupported higher-level inferences. The current repository contains the validated pilot workflow that will be used for larger-scale experimentation.
+The project evaluates whether providing country information alongside the same portrait image changes the model's visual descriptions or encourages unsupported higher-level social, cultural, occupational or personality inferences.
+
+The current repository contains the validated pilot workflow that will be used for larger-scale experimentation.
 
 ---
 
 # Research Question
 
-**Does providing geographic metadata influence how multimodal AI models describe the same portrait image?**
+> **Does providing geographic metadata influence how multimodal AI models describe the same portrait image?**
 
 ---
 
 # Pilot Study Objective
 
-The purpose of the pilot study is to validate a reproducible experimental pipeline before scaling the experiment to a larger dataset.
+The pilot study is designed to validate a reproducible experimental pipeline before scaling the experiment to a larger dataset.
 
 Specifically, the pilot demonstrates that:
 
-- The prompting framework generates consistent structured outputs.
-- The NLP pipeline extracts the intended quantitative metrics.
-- The statement-level annotation protocol is reproducible.
-- The statistical workflow is appropriate.
-- The complete methodology is suitable for larger-scale evaluation.
+- the prompting framework produces consistent structured outputs;
+- the NLP pipeline extracts the intended quantitative metrics;
+- the statement-level annotation protocol is transparent and reproducible;
+- the statistical workflow is appropriate for repeated-measures analysis;
+- the complete methodology is suitable for larger-scale evaluation.
 
 ---
 
@@ -38,11 +40,11 @@ Specifically, the pilot demonstrates that:
 
 | Component | Details |
 |-----------|---------|
-| Model | Gemini 3.5 Flash |
-| Images | 10 culturally neutral portrait images |
-| Conditions | Control, Nigeria, India, Saudi Arabia, United Kingdom |
-| Repeats | 3 |
-| Total Responses | 150 |
+| **Model** | Gemini 3.5 Flash |
+| **Images** | 10 pilot portrait images |
+| **Conditions** | Control, Nigeria, India, Saudi Arabia, United Kingdom |
+| **Repeats** | 3 per condition |
+| **Total Responses** | 150 |
 
 ---
 
@@ -50,16 +52,43 @@ Specifically, the pilot demonstrates that:
 
 The experimental workflow consists of the following stages:
 
-1. Image selection
-2. Prompt generation
-3. Gemini response generation
-4. JSON parsing
-5. Statement extraction
-6. Statement-level visual-evidence verification
-7. NLP analysis
-8. Statistical analysis
-9. Results visualisation
-10. Reproducible export
+```text
+Image Selection
+      ↓
+Prompt Generation
+      ↓
+Gemini 3.5 Flash
+      ↓
+Structured JSON Responses
+      ↓
+Statement Extraction
+      ↓
+Statement-Level Evidence Verification
+      ↓
+NLP Analysis
+      ↓
+Statistical Analysis
+      ↓
+Figures, Tables & Documentation
+```
+
+---
+
+# Key Outputs
+
+The pilot pipeline automatically produces:
+
+- Raw model responses
+- Processed datasets
+- Semantic shift analysis
+- Sentiment analysis
+- Adjective frequency analysis
+- Statement-level annotation summaries
+- Unsupported inference analysis
+- Statistical test results
+- Publication-ready figures
+- Summary tables
+- Reproducible documentation
 
 ---
 
@@ -79,12 +108,15 @@ whose-beauty-pipeline/
 │
 ├── tables/
 │
-├── docs/
+├── documentation/
 │   ├── methodology.md
-│   ├── weekly_logs/
-│   └── supervision_notes/
+│   ├── unsupported_inference_coding_protocol.md
+│   ├── annotation_examples.md
+│   ├── reproducible_pipeline.md
+│   ├── image_selection_review.md
+│   └── stochasticity_baseline.md
 │
-├── presentations/
+├── weekly_meetings/
 │
 ├── requirements.txt
 │
@@ -95,44 +127,56 @@ whose-beauty-pipeline/
 
 # How to Run
 
-1. Clone this repository.
+Clone the repository.
 
 ```bash
 git clone https://github.com/<username>/whose-beauty-pipeline.git
 ```
 
-2. Install the required packages.
+Install the required packages.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Configure your API credentials.
+Configure your Gemini API key.
 
-Set your Gemini API key before running the notebook.
+Open the notebook:
 
-4. Open the notebook in Google Colab or Jupyter Notebook.
-
-```
+```text
 notebooks/whose_beauty_pipeline.ipynb
 ```
 
-5. Run all notebook cells sequentially.
+Run all notebook cells sequentially.
 
 ---
 
 # Technologies
 
-- Python
+- Python 3.11
 - Google Colab
 - Gemini 3.5 Flash
 - pandas
 - NumPy
-- spaCy
 - Sentence Transformers
-- NLTK / VADER
+- spaCy
+- NLTK (VADER)
 - SciPy
 - Matplotlib
+
+---
+
+# Pilot Findings
+
+The pilot demonstrates that:
+
+- Geographic metadata produced relatively small semantic shifts across conditions.
+- Unsupported inference rates varied across country conditions.
+- The control condition exhibited the highest unsupported inference rate in the pilot dataset.
+- Statement-level annotation provides a transparent and reproducible framework for evaluating unsupported social inferences.
+- The complete experimental pipeline successfully generates reproducible quantitative outputs suitable for larger-scale experimentation.
+
+The primary contribution of the pilot is the validation of the experimental methodology rather than confirmation of the final research hypothesis.
 
 ---
 
@@ -140,13 +184,14 @@ notebooks/whose_beauty_pipeline.ipynb
 
 The repository currently contains:
 
-- A validated pilot experimental pipeline.
+- A validated pilot experimental pipeline ready for larger-scale experimentation.
 - A reproducible Google Colab notebook.
-- Automated response generation and JSON parsing.
+- Automated response generation and structured JSON parsing.
 - Statement-level visual-evidence verification.
 - NLP analysis pipeline.
 - Statistical analysis workflow.
-- Figures, tables and supporting documentation for the pilot study.
+- Figures, tables and supporting documentation.
+- Weekly supervision logs documenting project development.
 
 ---
 
@@ -155,13 +200,24 @@ The repository currently contains:
 Future work will focus on:
 
 - Increasing the number of culturally neutral portrait images.
-- Evaluating additional multimodal AI models.
+- Implementing the stochasticity baseline.
+- Evaluating additional multimodal large language models (MLLMs).
 - Applying the validated annotation protocol to larger datasets.
-- Comparing metadata effects across more countries and image sets.
-- Investigating culturally diagnostic portraits as a separate experiment.
+- Comparing geographic metadata effects across additional countries.
+- Investigating culturally diagnostic portraits as a separate robustness experiment.
 
 ---
 
 # Licence
 
 This repository is maintained for academic research conducted as part of the MSc Data Science programme at Middlesex University London.
+
+---
+
+# Citation
+
+If you use this repository for academic purposes, please cite:
+
+> **Adedeji, A. (2026).**  
+> *Whose Beauty? Geographic and Cultural Bias in AI Representations of Gender and Appearance.*  
+> MSc Data Science Dissertation, Middlesex University London.
