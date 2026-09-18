@@ -1,0 +1,13 @@
+outcome,comparison,control_mean_pct,country_mean_pct,mean_difference_pct_points,wilcoxon_statistic,raw_p_value,holm_adjusted_p_value,significant_after_holm
+Occupation inference,Nigeria vs control,0.0,26.7,26.7,0.0,0.0625,0.125,False
+Occupation inference,India vs control,0.0,46.7,46.7,0.0,0.015625,0.0625,False
+Occupation inference,Saudi Arabia vs control,0.0,26.7,26.7,0.0,0.125,0.125,False
+Occupation inference,United Kingdom vs control,0.0,50.0,50.0,0.0,0.03125,0.09375,False
+Personality inference,Nigeria vs control,0.0,70.0,70.0,0.0,0.003906,0.007812,True
+Personality inference,India vs control,0.0,80.0,80.0,0.0,0.003906,0.007812,True
+Personality inference,Saudi Arabia vs control,0.0,83.3,83.3,0.0,0.001953,0.007812,True
+Personality inference,United Kingdom vs control,0.0,90.0,90.0,0.0,0.001953,0.007812,True
+Substantive social/cultural inference,Nigeria vs control,3.3,30.0,26.7,0.0,0.125,0.125,False
+Substantive social/cultural inference,India vs control,3.3,33.3,30.0,0.0,0.03125,0.0625,False
+Substantive social/cultural inference,Saudi Arabia vs control,3.3,53.3,50.0,0.0,0.003906,0.015625,True
+Substantive social/cultural inference,United Kingdom vs control,3.3,56.7,53.3,0.0,0.015625,0.046875,True

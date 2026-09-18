@@ -1,0 +1,6 @@
+comparison,mean_image_level_cosine_distance
+Same-prompt control baseline,0.0856
+Nigeria country-control distance,0.1033
+India country-control distance,0.1117
+Saudi Arabia country-control distance,0.1118
+United Kingdom country-control distance,0.1155

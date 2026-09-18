@@ -1,0 +1,5 @@
+comparison,n_images,test,multiple_testing_correction,holm_corrected_result,note
+Nigeria vs same-prompt baseline,10,Wilcoxon signed-rank,Holm,not significant,Exact saved p-value not present in notebook output
+India vs same-prompt baseline,10,Wilcoxon signed-rank,Holm,not significant,Exact saved p-value not present in notebook output
+Saudi Arabia vs same-prompt baseline,10,Wilcoxon signed-rank,Holm,not significant,Exact saved p-value not present in notebook output
+United Kingdom vs same-prompt baseline,10,Wilcoxon signed-rank,Holm,not significant,Exact saved p-value not present in notebook output

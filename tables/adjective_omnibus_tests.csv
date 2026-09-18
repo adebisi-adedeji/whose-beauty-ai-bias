@@ -1,0 +1,5 @@
+category,n_images,n_conditions,friedman_chi2,raw_p_value,holm_adjusted_p_value,kendalls_w,significant_after_holm
+Appearance,10,5,11.063,0.026,0.103,0.277,False
+Modernity/traditionalism,10,5,8.457,0.076,0.229,0.211,False
+Professionalism/competence,10,5,,,,,False
+Warmth,10,5,,,,,False

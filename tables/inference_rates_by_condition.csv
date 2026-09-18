@@ -1,0 +1,6 @@
+condition,occupation_inference_pct,personality_inference_pct,substantive_social_cultural_inference_pct
+control,0.0,0.0,3.3
+Nigeria,26.7,70.0,30.0
+India,46.7,80.0,33.3
+Saudi Arabia,26.7,83.3,53.3
+United Kingdom,50.0,90.0,56.7

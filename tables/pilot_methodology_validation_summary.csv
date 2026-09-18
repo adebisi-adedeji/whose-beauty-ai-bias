@@ -1,0 +1,14 @@
+component,operational_implementation,pilot_validation_evidence,current_limitation_or_decision
+Experimental design,10 portraits × 5 conditions × 3 repeats,150/150 expected responses retained,Original prompt templates were not identical apart from metadata
+Image selection,Portrait screening for cultural/religious/contextual cues,Predominantly neutral portraits; one borderline case identified,Use stricter screening; exclude or separately analyse diagnostic images
+Prompt implementation,Structured JSON output,Rendered prompts and raw-to-structured examples verified implementation,Structurally match prompts before scaling
+Response processing,Raw outputs retained and parsed,150 responses successfully parsed,Do not retrospectively assume unrecorded generation parameters
+Semantic shift,Sentence embeddings and cosine distance,120 matched semantic distances; no systematic country difference in pilot,Interpret relative to stochasticity
+Stochasticity baseline,Repeated-control semantic distance vs country-control distance,Mean D_same=0.0856; country means 0.1033–0.1155; none significant after Holm,Retain repeated generations
+Adjective framing,Fixed taxonomy applied to structured appearance adjectives,74 unique adjectives; 711 tokens; 29.1% taxonomy coverage; none significant after Holm,Conservative taxonomy; leave uncategorised terms uncategorised
+Structured occupation/personality inference,Presence in structured fields,Country-conditioned outputs contained substantially more inference than control,"Presence is interpretive framing, not automatically unsupported"
+Social/cultural refinement,"Claims classified as metadata repetition, substantive inference, or mixed","145 claims: 89 metadata repetitions, 32 substantive, 24 mixed",Substantive does not automatically mean visually unsupported
+Visual-evidence annotation,Statement/atomic-claim evidence protocol,363 statements extracted; 25-statement validation subset reviewed,Single-coder pilot; not prevalence estimate
+Statistical unit,Repeats aggregated within image-condition,Image-level repeated-measures analyses,Image remains independent unit
+Statistical analysis,Friedman/Wilcoxon with correction,Repeated-measures procedures implemented,n=10 pilot intended for methodological validation
+Reproducibility,"Prompts, raw responses, processed data, code and intermediates retained",Records and transformations auditable,Freeze exact model/API/generation configuration for scaled study

@@ -1,5 +1,6 @@
-condition,appearance,warmth,modernity_traditionalism
-Nigeria,2.4333,0.2333,0.0333
-India,2.3333,0.2333,0.0333
-Saudi Arabia,2.0333,0.3,0.0333
-United Kingdom,2.2333,0.2333,0.0333
+condition,appearance_framing_pct,modernity_traditionalism_pct_exact_if_saved,socioeconomic_framing_pct
+control,36.7,0.0,0.0
+Nigeria,70.0,,0.0
+India,60.0,,0.0
+Saudi Arabia,80.0,,0.0
+United Kingdom,70.0,,0.0
